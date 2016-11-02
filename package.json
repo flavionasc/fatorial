@@ -1,0 +1,22 @@
+{
+  "name": "fatorial",
+  "version": "1.0.0",
+  "description": "calculate factory test\u001b[D\u001b[D\u001b[D\u001b[D\u001b[ial test",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavionasc/fatorial.git"
+  },
+  "author": "Flavionasc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flavionasc/fatorial/issues"
+  },
+  "homepage": "https://github.com/flavionasc/fatorial#readme"
+}
