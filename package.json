@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "Karma start --single-run --browsers PhantomJS",
-    "tdd": "Karma start --browsers FirefoxDeveloper",
+    "tdd": "Karma start --browsers FirefoxDeveloper --reporters progress",
     "test-crossbrowser": "karma start --single-run --browsers Chrome,Firefox,IE"
   },
   "repository": {
@@ -24,6 +24,7 @@
   "devDependencies": {
     "karma": "^1.3.0",
     "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
     "karma-firefox-launcher": "^1.0.0",
     "karma-ie-launcher": "^1.0.0",
     "karma-jasmine": "^1.0.2",
