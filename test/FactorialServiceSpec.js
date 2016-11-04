@@ -13,4 +13,9 @@ describe('FactorialService.js', function() {
         expect(FactorialService.calculate(0)).toBe(1);
     });
 
+     it('shold return null if an invalid param was given', function(){
+        expect(FactorialService.calculate(-1)).toBe(null);
+        expect(FactorialService.calculate("1")).toBe(null);
+        expect(FactorialService.calculate("")).toBe(null);
+    });
 });
