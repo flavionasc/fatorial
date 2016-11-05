@@ -8,15 +8,9 @@ var FactorialService = (function () {
     }
 
     function calculate(number) {
-
+        //fatorial por recursividade
         if(!isNumberValid(number)) return null;
-        var result = 1;
-        if(number === 0 || number === 1) return result;
-       
-            for (var i = 2; i <= number; i++){
-                result = result * i;
-            }
-        return result;
+            return (number < 2) ? 1 : calculate(number - 1) * number;
     }
 
     //public api
